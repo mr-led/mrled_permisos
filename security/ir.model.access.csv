@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_voucher,account_order,account_voucher.model_account_voucher,group_mrled_invoice,1,0,0,0
+access_voucher_line,account_voucher_line,account_voucher.model_account_voucher_line,group_mrled_invoice,1,0,0,0
+access_move_line,account_move_line,account.model_account_move_line,group_mrled_invoice,1,0,0,0
+access_move,account_move,account.model_account_move,group_mrled_invoice,1,0,0,0
+access_move_reconcile,account_move_reconcile,account.model_account_move_reconcile,group_mrled_invoice,1,0,0,0
+access_payment,payment,elmatica_account_voucher.model_payment,group_mrled_invoice,1,0,0,0
+access_account_account,account_account,account.model_account_account,group_mrled_invoice,1,0,0,0
+access_product_product,product_product,product.model_product_product,group_mrled_invoice,1,0,0,0
+access_product_template,product_template,product.model_product_template,group_mrled_invoice,1,0,0,0
+access_res_partner,res_partner,base.model_res_partner,group_mrled_invoice,1,0,0,0
