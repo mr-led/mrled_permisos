@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="account_invoice_form_validate">
+            <field name="name">account.invoice.form.validate</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id"
+                ref="account.invoice_form" />
+            <field name="arch" type="xml">
+                    <button name="invoice_open" position="attributes">
+			<attribute name="groups">l10n_ar_invoice.group_l10n_ar_invoice_user</attribute>
+		    </button>
+	    </field>
+	</record>
+
+    </data>
+</openerp>
