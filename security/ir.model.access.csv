@@ -4,8 +4,15 @@ access_voucher_line,account_voucher_line,account_voucher.model_account_voucher_l
 access_move_line,account_move_line,account.model_account_move_line,group_mrled_invoice,1,0,0,0
 access_move,account_move,account.model_account_move,group_mrled_invoice,1,0,0,0
 access_move_reconcile,account_move_reconcile,account.model_account_move_reconcile,group_mrled_invoice,1,0,0,0
-access_payment,payment,elmatica_account_voucher.model_payment,group_mrled_invoice,1,0,0,0
 access_account_account,account_account,account.model_account_account,group_mrled_invoice,1,0,0,0
 access_product_product,product_product,product.model_product_product,group_mrled_invoice,1,0,0,0
 access_product_template,product_template,product.model_product_template,group_mrled_invoice,1,0,0,0
 access_res_partner,res_partner,base.model_res_partner,group_mrled_invoice,1,0,0,0
+access_afip_responsability_user,afip.responsability.user,l10n_ar_invoice.model_afip_responsability,group_mrled_invoice,1,0,0,0
+access_afip_responsability_relation_user,afip.responsability_relation.user,l10n_ar_invoice.model_afip_responsability_relation,group_mrled_invoice,1,0,0,0
+access_afip_journal_class_user,afip.journal_class.user,l10n_ar_invoice.model_afip_journal_class,group_mrled_invoice,1,0,0,0
+access_afip_document_type_user,afip.document_type.user,l10n_ar_invoice.model_afip_document_type,group_mrled_invoice,1,0,0,0
+access_afip_concept_type_user,afip.concept_type.user,l10n_ar_invoice.model_afip_concept_type,group_mrled_invoice,1,0,0,0
+access_afip_document_class_user,afip.document_class.user,l10n_ar_invoice.model_afip_document_class,group_mrled_invoice,1,0,0,0
+access_afip_journal_template_user,afip.journal_template.user,l10n_ar_invoice.model_afip_journal_template,group_mrled_invoice,1,0,0,0
+access_afip_optional_type_user,afip.optional_type.user,l10n_ar_invoice.model_afip_optional_type,group_mrled_invoice,1,0,0,0
